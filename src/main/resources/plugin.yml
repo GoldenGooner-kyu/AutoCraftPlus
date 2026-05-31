@@ -1,0 +1,27 @@
+name: AutoCraftPlus
+version: 1.0.1
+main: com.github.goldengooner.autocraftplus.AutoCraftPlus
+api-version: 1.19
+author: GoldenGooner
+description: An advanced automatic crafting plugin with transactional inventory safety.
+
+commands:
+  autocraft:
+    aliases: [acp]
+    description: Main AutoCraftPlus command.
+    permission: acp.use
+    usage: /acp [info|reload|create|edit|remove|list]
+
+permissions:
+  acp.use:
+    description: Allows using the basic commands of AutoCraftPlus.
+    default: true
+  acp.admin:
+    description: Allows administrative commands (reload, create, edit).
+    default: op
+  acp.recipe.*:
+    description: Allows automatic crafting of all recipes.
+    default: op
+  acp.speed.*:
+    description: Allows all automatic crafting speed tick rates.
+    default: false

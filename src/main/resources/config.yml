@@ -1,0 +1,35 @@
+# ==========================================
+# AutoCraftPlus Configuration Wiki & Settings
+# Author: GoldenGooner
+# Supporting Minecraft 1.19+
+# ==========================================
+
+settings:
+  # Trigger auto-crafting immediately when a player picks up an item
+  trigger-on-pickup: true
+
+  # Trigger auto-crafting periodically based on server ticks
+  trigger-on-tick: true
+
+  # Enable built-in AutoPickup of block drops (natively handles Fortune/Silk Touch and filters overflow)
+  # When active, block broken drops go straight to the inventory and auto-crafting is evaluated immediately.
+  # This integrates seamlessly with other third-party auto-pickup plugins.
+  enable-auto-pickup: true
+
+  # Default speed for periodic ticks (20 ticks = 1 second)
+  # This speed is applied if a player does not have any specific 'acp.speed.<tick>' permission.
+  # Note: Even if a player is OP (Operator), they will use this speed unless explicitly assigned a speed permission.
+  default-tick-speed: 20
+
+# Messaging Section
+# Supports Legacy Color Codes (&a), Hex Colors (&#AABBCC), and Gradients (<gradient:#HEX1:#HEX2>Text</gradient>)
+messages:
+  prefix: "&#00D2FF&lAutoCraftPlus &7» "
+  no-permission: "&cYou do not have permission to perform this action!"
+  recipe-saved: "&aSuccessfully saved recipe: &e%id%"
+  recipe-deleted: "&aSuccessfully deleted recipe: &e%id%"
+  recipe-not-found: "&cRecipe with ID &e%id% &cnot found!"
+  invalid-args: "&cInvalid arguments! Use: /acp info"
+  only-players: "&cOnly players can perform this action!"
+  reload-success: "&aSuccessfully reloaded config and recipes!"
+  cannot-save-empty: "&cRecipe must contain at least 1 ingredient and 1 result!"

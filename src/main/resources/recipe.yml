@@ -1,0 +1,6 @@
+# ==========================================
+# AutoCraftPlus Recipes Database
+# Managed by /acp commands. Manually editing is possible,
+# but it must follow Bukkit's standard ConfigurationSerializable syntax.
+# ==========================================
+recipes: {}
