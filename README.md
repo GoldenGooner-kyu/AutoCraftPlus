@@ -1,7 +1,7 @@
-# AutoCraftPlus
+## AutoCraftPlus
 
 <p align="center">
-  <img src="./autocraftplus_banner.png" alt="AutoCraftPlus Banner" width="800">
+  <img src="https://i.imgur.com/unbtftE.jpeg" alt="AutoCraftPlus Banner" width="800">
 </p>
 
 <p align="center">
